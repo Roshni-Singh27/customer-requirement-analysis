@@ -219,3 +219,6 @@ __marimo__/
 
 # Raw research datasets
 data/raw/
+
+# Derived datasets from benchmark sources
+data/intermediate/semeval2015/
