@@ -1,0 +1,61 @@
+sentence_id,domain,sentence_text,requirement_prediction,prediction_confidence,explicit_requirement_signal,requirement_signal_type,requirement_evidence_score,manual_requirement_label
+381:3,laptop,I would like at least a 4 hr. battery life.,1,0.6346635573939989,1,direct_request,0.9347,requirement
+375:2,laptop,"I wish it had a webcam though, then it would be perfect!",1,0.6297168463134899,1,direct_request,0.9297,requirement
+329:3,laptop,"Would like more trendy, high tech features.",1,0.6282423972832767,1,direct_request,0.9282,requirement
+1280166:2,restaurant,"Food was very good as well, considering that we tried the budget selection (though I wish the pork belly that I ordered was roasted a bit longer, so that fat was more of a melt-in-your-mouth experience).",1,0.6185140305273834,1,direct_request,0.9185,not_requirement
+318:0,laptop,"The pro is a great product, I wish that the 13 inch models came with the Intel i processors and had a more comfortable edge (the edges hurt my wrists).",1,0.6155186579558534,1,direct_request,0.9155,requirement
+327:0,laptop,I would like to have volume buttons rather than the adjustment that is on the front.,1,0.6042029803509554,1,direct_request,0.9042,requirement
+374:13,laptop,I wish the volume could be louder and the mouse didnt break after only a month.,1,0.5356061735597931,1,direct_request,0.8356,requirement
+294:4,laptop,The one thing I wish it had was a detailed hardcopy manuel.,1,0.5320093160070104,1,direct_request,0.832,requirement
+426930:1,restaurant,(Besides that there should be more restaurants like it around the city).,1,0.6310530934706052,1,improvement_signal,0.8311,requirement
+1561259:4,restaurant,"This place is pricey, and yes, the food is worth it; but the service makes you feel like you should be paying a quater of the price.",1,0.6232349525173165,1,improvement_signal,0.8232,uncertain
+93:5,laptop,If this is an improvement in Customer Service then I would hate too see what it was before!,1,0.6181090721283677,1,improvement_signal,0.8181,uncertain
+1660047:5,restaurant,"The whole set up is truly unprofessional and I wish Cafe Noir would get some good staff, because despite the current one this is a great place.",1,0.5168277830756496,1,direct_request,0.8168,requirement
+494850:2,restaurant,I wish they would change back to what it was before.,1,0.5019176482261342,1,direct_request,0.8019,requirement
+240:1,laptop,"One drawback, I wish the keys were backlit.",1,0.5001170208494905,1,direct_request,0.8001,requirement
+536919:0,restaurant,The only thing more wonderful than the food (which is exceptional) is the service.,1,0.5939146729375625,1,improvement_signal,0.7939,not_requirement
+377:2,laptop,The only thing is that the battery won't last more than 1/2 an hour.,1,0.5903824714431104,1,improvement_signal,0.7904,requirement
+280:1,laptop,"still testing the battery life as i thought it would be better, but am very happy with the upgrade.",1,0.58108697589996,1,improvement_signal,0.7811,requirement
+353:2,laptop,"Aside from the trial software and the short battery life, lack of a webcam, its great.",1,0.6281052918377749,1,problem_or_missing,0.7781,requirement
+321:0,laptop,The only problem is a lack of screen resolutions!,1,0.6257737320699063,1,problem_or_missing,0.7758,requirement
+436868:3,restaurant,"Calling the place Hampton Chutney Co. does warn you that these folks offer more style than substance, but in this unattractive room with unhelpful clerks there was a dearth of the former too.",1,0.5682569298844512,1,improvement_signal,0.7683,requirement
+386:2,laptop,Battery life needs more life.,1,0.5668180237250324,1,improvement_signal,0.7668,requirement
+101:2,laptop,its more like a snail crawl.,1,0.5630517882506182,1,improvement_signal,0.7631,requirement
+630914:2,restaurant,"The mussles were the fishiest things I've ever tasted, the seabass was bland, the goat cheese salad was missing the goat cheese, the penne w/ chicken had bones in it... It was disgusting.",1,0.6117921439664051,1,problem_or_missing,0.7618,requirement
+127:8,laptop,I'll rather be out of date then spend more money on toshiba.,1,0.5605741833237766,1,improvement_signal,0.7606,not_requirement
+391:10,laptop,"It is everything I'd hoped it would be from a look and feel standpoint, but somehow a bit more sturdy.",1,0.5571082608518244,1,improvement_signal,0.7571,requirement
+366:12,laptop,WOULD PAY MORE FOR IT IF I HAD TOO!,1,0.5514945319703939,1,improvement_signal,0.7515,uncertain
+37:1,laptop,The speed is incredible and I am more than satisfied.,1,0.5505118516475913,1,improvement_signal,0.7505,not_requirement
+720418:3,restaurant,Everyone was more then happy with his choices.,1,0.5439213644448484,1,improvement_signal,0.7439,not_requirement
+333:2,laptop,"Only issue is that it is a little slow, and I'm fixing that by adding more RAM.",1,0.540205117415998,1,improvement_signal,0.7402,requirement
+50:4,laptop,HP is more interested in selling extended warranties (which cost more than the netbook new) then they are in helping or fixing.,1,0.5390077338274817,1,improvement_signal,0.739,requirement
+1660047:2,restaurant,"The waitress, seems to be more concerned of looking good than actually waitressing.",1,0.5332732414461328,1,improvement_signal,0.7333,requirement
+367:2,laptop,The difference is the Toshiba had a lot more memory and hard drive space.,1,0.529761451721778,1,improvement_signal,0.7298,requirement
+527109:0,restaurant,"Volare virgins or weekly regulars, everyone gets treated the same and you can't ask for more than that when the service is this friendly.",1,0.529836346136957,1,improvement_signal,0.7298,not_requirement
+273:9,laptop,It's more expensive but well worth it in the long run.,1,0.5289766775790965,1,improvement_signal,0.729,not_requirement
+426930:0,restaurant,Authentic Taiwanese food that's cheap... what more could you ask for?,1,0.5280808138138127,1,improvement_signal,0.7281,not_requirement
+56:1,laptop,Keyboard is great but primary and secondary control buttons could be more durable.,1,0.5271944104029409,1,improvement_signal,0.7272,requirement
+100:5,laptop,"I don't like this company nor the toshiba brand, and I'll never  buy another one because I've put more into it then it is worth.",1,0.5218904449767057,1,improvement_signal,0.7219,not_requirement
+368:1,laptop,The Toshiba Satellite has been more than I expected for the price.,1,0.5174819861161204,1,improvement_signal,0.7175,not_requirement
+1084394:3,restaurant,The Prix Fixe menu is worth every penny and you get more than enough (both in quantity AND quality).,1,0.5154408837833759,1,improvement_signal,0.7154,not_requirement
+757762:1,restaurant,The only problem is that the manager is a complete incompetent.,1,0.5648241167432954,1,problem_or_missing,0.7148,requirement
+1041457:4,restaurant,I had never had Edamame pureed before but I thought it was innovative and tasty (could've used a bit more salt).,1,0.5124602353876448,1,improvement_signal,0.7125,requirement
+154:6,laptop,"More times that not the screen pops up saying I have a bad internet connection, or the page can't be displayed.",1,0.5111831841818641,1,improvement_signal,0.7112,requirement
+336:0,laptop,"Needs longer lasting battery, More than 1 to 2 Hrs.",1,0.5076591644411563,1,improvement_signal,0.7077,requirement
+394:7,laptop,I find myself using the 10-key more than I thought I would.,1,0.5074750551246398,1,improvement_signal,0.7075,not_requirement
+100:6,laptop,I would  rather spend my money on a computer that costs more then a Toshiba that  isn't good at all.,1,0.5064855130848862,1,improvement_signal,0.7065,not_requirement
+1448587:4,restaurant,Problem is nothing at Prune is particularly memorable.,1,0.554493843898563,1,problem_or_missing,0.7045,uncertain
+1016296:4,restaurant,Chow fun was dry; pork shu mai was more than usually greasy and had to share a table with loud and rude family.,1,0.5040813747478146,1,improvement_signal,0.7041,requirement
+96:5,laptop,COMPUTER HAS BEEN AT SERVICE FACILITY MORE THAN IN MY HANDS.,1,0.501546782973805,1,improvement_signal,0.7015,requirement
+228:1,laptop,"The battery never held a charge longer than one hour and within two months, stopped holding a charge for more than ten minutes.",1,0.5010989190297616,1,improvement_signal,0.7011,requirement
+390:1,laptop,"the only problem is that i had to add 1 gb RAM, the computer was kinda slow.",1,0.5424542881552018,1,problem_or_missing,0.6925,requirement
+191:0,laptop,MY ONLY PROBLEM IS I CAN NOT REG. THE PRODUCT KEY.,1,0.5222899852355273,1,problem_or_missing,0.6723,requirement
+342:3,laptop,The battery doesn't last long but I'm sure an upgrade battery would solve that problem.,1,0.5201928584865841,1,problem_or_missing,0.6702,requirement
+22:9,laptop,"I acually believe the issue is with the Nvidia grafics card, but still requires a return.",1,0.5188947773780729,1,problem_or_missing,0.6689,requirement
+84:4,laptop,Speakers doesn't sound that great.,1,0.5171046183506578,0,problem_or_missing,0.6671,requirement
+1280179:4,restaurant,"As many other reviewers noticed, your order is often slow to arrive - this is particularly true in the evening but is not a problem during lunch time.",1,0.5165905527442574,1,problem_or_missing,0.6666,requirement
+22:6,laptop,The problem I had with this unit was unresolvable.,1,0.5152087676044934,1,problem_or_missing,0.6652,requirement
+610611:4,restaurant,"service is friendly, and never had a problem walking in and getting a table.",1,0.5151169452017843,1,problem_or_missing,0.6651,not_requirement
+1417496:0,restaurant,A restaurant that doesn't try to do anything except serve great food with great service in a pleasant atmosphere.,1,0.5121367996431689,0,problem_or_missing,0.6621,not_requirement
+404464:0,restaurant,"Thalia is a beautiful restaurant with beautiful people serving you, but the food doesn't quite match up.",1,0.5069627042694147,0,problem_or_missing,0.657,requirement
+32:6,laptop,Another issue I have with it is the battery.,1,0.501050797900275,1,problem_or_missing,0.6511,requirement

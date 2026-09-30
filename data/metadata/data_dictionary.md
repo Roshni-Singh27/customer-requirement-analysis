@@ -91,3 +91,43 @@ Empty sentence records identified: **0**
 Invalid polarity records identified: **0**
 
 Invalid aspect-category format records identified: **0**
+
+
+## Sentence-Level and Requirement Extraction Fields
+
+| Field | Description | Type |
+|---|---|---|
+| sentence_id | Unique identifier of the sentence within the source dataset | String |
+| sentence_text | Customer-generated sentence used for analysis | String |
+| target | Explicit opinion target when available; `NULL` may represent an implicit/unspecified restaurant target | String / Nullable |
+| category | SemEval aspect category associated with the opinion | String / Nullable |
+| polarity | Sentiment polarity associated with the opinion | Categorical / Nullable |
+| requirement_signal_type | Type of signal detected by the requirement extraction component | Categorical |
+| prediction_confidence | Model confidence associated with the predicted requirement signal | Numeric |
+| requirement_evidence_score | Score representing the strength of requirement-related evidence | Numeric |
+| manual_requirement_label | Human validation label: `requirement`, `not_requirement`, or `uncertain` | Categorical |
+| error_category | Category assigned during manual error analysis | Categorical / Nullable |
+
+## Requirement Signal Types
+
+The requirement extraction component uses the following signal categories:
+
+- `direct_request` — explicit customer request or desired change
+- `improvement_signal` — language indicating that a product/service could be improved
+- `problem_or_missing` — a problem, limitation, or missing feature identified by the customer
+
+## Manual Validation Labels
+
+- `requirement` — sentence expresses a customer requirement or actionable need
+- `not_requirement` — sentence does not represent a customer requirement
+- `uncertain` — sentence cannot be confidently classified
+
+## Error Categories
+
+The manually identified extraction errors were categorized as:
+
+- `positive_feedback` — customer expresses satisfaction or praise without requesting a change
+- `preference_without_requirement` — customer expresses a preference without a clear actionable requirement
+- `ambiguous` — sentence is difficult to classify confidently
+- `general_opinion` — customer expresses an evaluation/opinion without a requirement
+- `problem_without_actionable_request` — customer mentions a problem but does not clearly request a solution or change
