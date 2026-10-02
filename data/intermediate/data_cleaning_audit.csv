@@ -1,0 +1,7 @@
+stage,record_count,records_removed
+Original parsed dataset,4163,0
+Exact duplicate records identified,4,0
+Exact duplicate records removed,2,2
+Final research-ready dataset,4161,2
+Annotated records,3626,0
+Non-annotated records,535,0
